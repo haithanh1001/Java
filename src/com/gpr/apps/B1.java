@@ -6,10 +6,10 @@ public class B1 {
 		if(a==0) {
 			if(b==0) {
 				if(c==0) {
-					System.out.print("Phuong trinh vo so nghiem");
+					System.out.print("Phuong trinh vo so nghiem!");
 				}
 				else {
-					System.out.print("Phuong trinh vo nghiem");
+					System.out.print("Phuong trinh vo nghiem!");
 				}
 			}
 			else {
