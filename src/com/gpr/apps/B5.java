@@ -1,7 +1,7 @@
 package com.gpr.apps;
 import java.lang.Math;
 public class B5 {
-	static boolean checkNT(int n) {
+	static boolean checkNT(long n) {
 	       if (n <= 1) {
 	           return false;
 	       }

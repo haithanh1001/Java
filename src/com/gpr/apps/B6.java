@@ -15,3 +15,5 @@ public class B6 {
 		return str;
 	}
 }
+
+

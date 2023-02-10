@@ -42,7 +42,7 @@ public class Main {
 				case 5:
 					System.out.print("Nhap n: ");
 					n = input.nextInt();
-					for (int i=0;i<n;i++) {
+					for (long i=0;i<n;i++) {
 						if(B5.checkNT(i)) {
 							System.out.print(i + " ");
 						}
@@ -70,6 +70,11 @@ public class Main {
 						}
 					}
 					break;
+				case 10:
+					System.out.print("Nhap n: ");
+					n = input.nextInt();
+					System.out.println("Cac so Fibonacci la so nguyen to nho hon n la: ");
+					B10.LietKeNguyenTo2(n);
 				default:
 					exit = true;
 			}
