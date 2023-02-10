@@ -75,6 +75,27 @@ public class Main {
 					n = input.nextInt();
 					System.out.println("Cac so Fibonacci la so nguyen to nho hon n la: ");
 					B10.LietKeNguyenTo2(n);
+				case 11:
+					float[] mang = {1,2,3,4,5,6,7,8};
+					
+//					float b[];
+//					b = new float[5];
+//					b[0]=1;
+//					b[1]=2;
+//					...
+					System.out.printf("Tong cac phan tu cua mang: %.0f", BTMang.Tong(mang));
+					break;
+				case 12:
+					float[] mang2 = {1,2,3,4,5,6,7,8,9,10};
+					float[] kq = BTMang.MinMaxAve(mang2);
+					System.out.printf("Max %.2f Min %.2f Average %.2f",kq[0],kq[1],kq[2]);
+					
+//					BTMang.MinMaxAve(mang2);
+					break;
+				case 13:
+					float[] mang3 = {1,(float) 2.12,(float) 3.1,4,5,6,7,8,9,10};
+					System.out.printf("Tong cac phan tu la so nguyen to cua mang la: %.0f", BTMang.TongNguyenTo(mang3));
+					break;
 				default:
 					exit = true;
 			}
@@ -103,8 +124,12 @@ public class Main {
 		System.out.printf("%-5s%s\n","[6]","Liet ke n so nguyen to dau tien");
 		System.out.printf("%-5s%s\n","[7]","Liet ke tat ca cac so nguyen to co 5 chu so");
 		System.out.printf("%-5s%s\n","[8]","Tinh tong cac chu so cua 1 so nguyen");
-		System.out.printf("%-5s%s\n","[9]","Liet ke so thuan nghich co 6 chu so");
+		System.out.printf("%-5s%s\n","[9]","Liet ke so thuan nghich co 6 chu so (chua fix!!!!)");
 		System.out.printf("%-5s%s\n","[10]","Liet ke cac so Fibonacci nho hon n la so nguyen to");
+		System.out.printf("%-5s%s\n","[11]","Tinh tong cac phan tu cua mang (fix cung)");
+		System.out.printf("%-5s%s\n","[12]","Tinh Max Min Average cua mang (fix cung)");
+		System.out.printf("%-5s%s\n","[13]","Tinh tong cac phan tu cua mang la so nguyen to (fix cung)");
+
 	}
 
 }
